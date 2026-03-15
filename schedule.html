@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ліцей "Політехнічний" | Ізмаїл</title>
+  <meta name="description"
+    content="Сучасний промосайт Ліцею «Політехнічний» в Ізмаїлі: історія, профілі навчання, досягнення, партнерства та контакти.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Literata:opsz,wght@7..72,500;7..72,600;7..72,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Перейти до основного вмісту</a>
+
+  <div class="page-glow page-glow-left" aria-hidden="true"></div>
+  <div class="page-glow page-glow-right" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container header-shell">
+      <a class="brand" href="#top" aria-label="Ліцей Політехнічний">
+        <img src="assets/lyceum-emblem.svg" alt="" width="60" height="60">
+        <span>
+          <strong>Ліцей "Політехнічний"</strong>
+          <small>Ізмаїл • Одеська область</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Відкрити меню</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Головна навігація">
+        <div class="nav-dropdown">
+          <button class="nav-dropdown-toggle" aria-expanded="false" aria-controls="schedule-menu">
+            Розклад
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="dropdown-menu" id="schedule-menu">
+            <a href="schedule.html">Розклад уроків</a>
+            <a href="schedule.html#bells">Розклад дзвінків</a>
+          </div>
+        </div>
+        <a href="index.html#about">Про ліцей</a>
+        <a href="index.html#profiles">Профілі</a>
+        <a href="index.html#advantages">Переваги</a>
+        <a href="index.html#achievements">Досягнення</a>
+        <a href="index.html#administration">Адміністрація</a>
+        <a href="index.html#contacts">Контакти</a>
+        <a class="nav-link-accent" href="https://www.ipl.net.ua/" target="_blank" rel="noreferrer noopener">
+          Чинний сайт
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section section-angled" id="schedule">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Організація навчання</p>
+          <h1>Розклад уроків</h1>
+          <p>
+            Актуальний розклад занять для всіх класів ліцею. Можливі зміни, слідкуйте за оновленнями від класних керівників.
+          </p>
+        </div>
+
+        <div class="schedule-controls" data-reveal style="--delay: 0.05s; margin-bottom: 2rem;">
+          <p style="font-weight: 600; margin-bottom: 0.8rem;">Оберіть клас:</p>
+          
+          <div class="class-select-wrapper">
+            <select id="class-select-mobile" class="class-select-mobile" style="width: 100%; padding: 0.8rem 1.2rem; border-radius: var(--radius-md); border: 1px solid rgba(21, 42, 104, 0.2); background: var(--surface); color: var(--text); font-family: inherit; font-size: 1rem; cursor: pointer;">
+              <option value="" disabled selected>-- Оберіть клас --</option>
+              <option value="5-A">5-А</option>
+              <option value="6-A">6-А</option>
+              <option value="6-B">6-Б</option>
+              <option value="7-A">7-А</option>
+              <option value="7-B">7-Б</option>
+              <option value="8-A">8-А</option>
+              <option value="8-B">8-Б</option>
+              <option value="8-V">8-В</option>
+              <option value="9-A">9-А</option>
+              <option value="9-B">9-Б</option>
+              <option value="10-A">10-А</option>
+              <option value="10-B">10-Б</option>
+              <option value="11-A">11-А</option>
+              <option value="11-B">11-Б</option>
+            </select>
+          </div>
+
+          <div class="class-buttons" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <button class="button button-secondary class-btn" data-class="5-A">5-А</button>
+            <button class="button button-secondary class-btn" data-class="6-A">6-А</button>
+            <button class="button button-secondary class-btn" data-class="6-B">6-Б</button>
+            <button class="button button-secondary class-btn" data-class="7-A">7-А</button>
+            <button class="button button-secondary class-btn" data-class="7-B">7-Б</button>
+            <button class="button button-secondary class-btn" data-class="8-A">8-А</button>
+            <button class="button button-secondary class-btn" data-class="8-B">8-Б</button>
+            <button class="button button-secondary class-btn" data-class="8-V">8-В</button>
+            <button class="button button-secondary class-btn" data-class="9-A">9-А</button>
+            <button class="button button-secondary class-btn" data-class="9-B">9-Б</button>
+            <button class="button button-secondary class-btn" data-class="10-A">10-А</button>
+            <button class="button button-secondary class-btn" data-class="10-B">10-Б</button>
+            <button class="button button-secondary class-btn" data-class="11-A">11-А</button>
+            <button class="button button-secondary class-btn" data-class="11-B">11-Б</button>
+          </div>
+        </div>
+
+        <div class="panel" data-reveal style="--delay: 0.1s; overflow-x: auto;">
+          <table class="schedule-table" id="lesson-table">
+            <thead>
+              <tr>
+                <th>Урок</th>
+                <th>Понеділок</th>
+                <th>Вівторок</th>
+                <th>Середа</th>
+                <th>Четвер</th>
+                <th>П'ятниця</th>
+                <th>Субота</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>1</strong></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>2</strong></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>3</strong></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>4</strong></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>5</strong></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>6</strong></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>7</strong></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="bells">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Дзвінки</p>
+          <h2>Розклад дзвінків</h2>
+          <p>
+            Графік дзвінків на уроки та перерви. Зверніть увагу на великі перерви для відпочинку та харчування.
+          </p>
+        </div>
+
+        <div class="panel" data-reveal style="--delay: 0.1s; max-width: 600px; margin: 0 auto; overflow-x: auto;">
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>Урок</th>
+                <th>Понеділок &ndash; П'ятниця</th>
+                <th>Субота</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>1</strong></td>
+                <td>08:30 &ndash; 09:15</td>
+                <td>08:30 &ndash; 09:15</td>
+              </tr>
+              <tr>
+                <td><strong>2</strong></td>
+                <td>09:25 &ndash; 10:10</td>
+                <td>09:20 &ndash; 10:05</td>
+              </tr>
+              <tr>
+                <td><strong>3</strong></td>
+                <td>10:20 &ndash; 11:05</td>
+                <td>10:10 &ndash; 10:55</td>
+              </tr>
+              <tr>
+                <td><strong>4</strong></td>
+                <td>11:20 &ndash; 12:05</td>
+                <td>11:05 &ndash; 11:50</td>
+              </tr>
+              <tr>
+                <td><strong>5</strong></td>
+                <td>12:20 &ndash; 13:05</td>
+                <td>12:00 &ndash; 12:45</td>
+              </tr>
+              <tr>
+                <td><strong>6</strong></td>
+                <td>13:15 &ndash; 14:00</td>
+                <td>12:50 &ndash; 13:35</td>
+              </tr>
+              <tr>
+                <td><strong>7</strong></td>
+                <td>14:10 &ndash; 14:55</td>
+                <td>13:40 &ndash; 14:25</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-shell">
+      <p>
+        <strong>Ліцей "Політехнічний" Ізмаїльської міської ради</strong>
+        <span>Сучасна концепція сайту на основі матеріалів чинного вебресурсу.</span>
+      </p>
+      <p>&copy; <span id="year"></span> Ізмаїл</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

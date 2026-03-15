@@ -1,0 +1,25 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
+  <title id="title">Емблема ліцею Політехнічний</title>
+  <desc id="desc">Стилізована синьо-золота емблема з книгою та свічкою.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4d35d"/>
+      <stop offset="100%" stop-color="#e0af24"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f67c8"/>
+      <stop offset="100%" stop-color="#2743a6"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#gold)" d="M150 12 265 150 150 288 35 150Z"/>
+  <path fill="url(#blue)" d="M150 42 235 150 150 258 65 150Z"/>
+  <path fill="none" stroke="#203796" stroke-width="8" d="M150 12 265 150 150 288 35 150Z"/>
+  <path fill="#f7f7f7" d="M94 170c18-8 37-8 56 0v52c-19-8-38-8-56 0Zm56 0c18-8 37-8 56 0v52c-19-8-38-8-56 0Z"/>
+  <path fill="none" stroke="#ffffff" stroke-width="4" d="M94 170c18-8 37-8 56 0m0 0c18-8 37-8 56 0"/>
+  <path fill="#f4d35d" d="M144 102h12v54h-12z"/>
+  <path fill="#ffffff" d="M150 78c7 3 10 8 10 14 0 8-5 14-10 17-5-3-10-9-10-17 0-6 3-11 10-14Z"/>
+  <path fill="none" stroke="#203796" stroke-width="4" d="M150 78c7 3 10 8 10 14 0 8-5 14-10 17-5-3-10-9-10-17 0-6 3-11 10-14Z"/>
+  <path fill="#ffffff" d="M72 220h156l-24 28H96Z"/>
+  <path fill="none" stroke="#203796" stroke-width="5" d="M72 220h156l-24 28H96Z"/>
+  <text x="150" y="239" fill="#203796" font-family="Georgia, serif" font-size="22" text-anchor="middle">ЛІЦЕЙ</text>
+</svg>
