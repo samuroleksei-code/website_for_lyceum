@@ -1,0 +1,59 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Будівля ліцею Політехнічний</title>
+  <desc id="desc">Стилізована ілюстрація шкільної будівлі з деревами, прапорами та алеєю.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcecff"/>
+      <stop offset="100%" stop-color="#fbf3dd"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#dce8cf"/>
+      <stop offset="100%" stop-color="#b7d0a2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#sky)"/>
+  <rect y="360" width="800" height="200" fill="url(#ground)"/>
+  <path d="M0 410c82-27 164-28 246-4 54 16 119 19 177 4 83-22 162-18 241 10 41 14 87 18 136 9v131H0Z" fill="#8aa96d"/>
+  <rect x="128" y="184" width="548" height="166" rx="16" fill="#db886d"/>
+  <rect x="128" y="315" width="548" height="35" rx="8" fill="#b34e36"/>
+  <rect x="168" y="206" width="84" height="96" rx="8" fill="#fff8f0"/>
+  <rect x="264" y="206" width="84" height="96" rx="8" fill="#fff8f0"/>
+  <rect x="552" y="206" width="84" height="96" rx="8" fill="#fff8f0"/>
+  <rect x="448" y="206" width="84" height="96" rx="8" fill="#fff8f0"/>
+  <rect x="349" y="170" width="106" height="180" rx="14" fill="#f3e8d8"/>
+  <rect x="382" y="214" width="40" height="98" rx="8" fill="#5a2c1f"/>
+  <rect x="333" y="133" width="138" height="42" rx="10" fill="#9f4e38"/>
+  <rect x="128" y="170" width="548" height="18" rx="8" fill="#744338"/>
+  <rect x="342" y="150" width="18" height="165" rx="9" fill="#fff7ef"/>
+  <rect x="444" y="150" width="18" height="165" rx="9" fill="#fff7ef"/>
+  <rect x="220" y="221" width="14" height="81" fill="#cfd8e4"/>
+  <rect x="316" y="221" width="14" height="81" fill="#cfd8e4"/>
+  <rect x="500" y="221" width="14" height="81" fill="#cfd8e4"/>
+  <rect x="604" y="221" width="14" height="81" fill="#cfd8e4"/>
+  <rect x="351" y="328" width="102" height="14" rx="7" fill="#d7cbc0"/>
+  <path d="M309 350h184l-32 60H341Z" fill="#e8ded1"/>
+  <path d="M70 355h122l140 205H165Z" fill="#d7c9b9"/>
+  <path d="M109 355h58l111 205h-54Z" fill="#c7b5a1"/>
+  <path d="M118 112h7v118h-7Z" fill="#6b4b3a"/>
+  <path d="M125 112h40v24h-40Z" fill="#2b55c7"/>
+  <path d="M125 136h40v24h-40Z" fill="#f2c63a"/>
+  <path d="M664 112h7v118h-7Z" fill="#6b4b3a"/>
+  <path d="M671 112h40v24h-40Z" fill="#2b55c7"/>
+  <path d="M671 136h40v24h-40Z" fill="#f2c63a"/>
+  <g>
+    <rect x="68" y="110" width="12" height="184" fill="#6c4e3d"/>
+    <circle cx="74" cy="94" r="54" fill="#61864e"/>
+    <circle cx="42" cy="122" r="38" fill="#6d9656"/>
+    <circle cx="104" cy="124" r="35" fill="#7aa662"/>
+  </g>
+  <g>
+    <rect x="716" y="118" width="12" height="176" fill="#6c4e3d"/>
+    <circle cx="722" cy="106" r="50" fill="#5f844b"/>
+    <circle cx="691" cy="128" r="36" fill="#739d5b"/>
+    <circle cx="748" cy="136" r="32" fill="#7aa662"/>
+  </g>
+  <rect x="130" y="406" width="540" height="8" rx="4" fill="#d9bf67"/>
+  <rect x="130" y="406" width="24" height="44" rx="6" fill="#7ca3d6"/>
+  <rect x="646" y="406" width="24" height="44" rx="6" fill="#7ca3d6"/>
+  <text x="400" y="515" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#17325f">Ліцей "Політехнічний"</text>
+</svg>
